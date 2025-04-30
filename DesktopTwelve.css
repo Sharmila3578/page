@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desktop_twelve_body {
+    width: 1440px;
+}
+
+.desktop_twelve_navbar {
+    margin: 0% 0% 0% 20%;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
+
+    /* margin-left: 30%; */
+}
+
+.desktop_twelve_nav {
+    /* width: 1440px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+
+
+}
+
+.desktop_twelve_icons {
+    margin-left: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.desktop_twelve_single_icon {
+    margin-right: 65%;
+    font-size: 19px;
+
+}
+
+.desktop_twelve_quick_call {
+    margin-left: 25%;
+}
+
+.desktop_twelve_login {
+    margin-left: 10%;
+}
+
+.desktop_twelve_nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 2%;
+
+}
+
+.desktop_twelve_menu_ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.desktop_twelve_list {
+    margin-right: 22%;
+    font-weight: bold;
+}
+
+.desktop_twelve_list:nth-child(3) {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+li {
+    list-style-type: none;
+}
+
+.desktop_twelve_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 27%;
+}
+
+.desktop_twelve_search_icon {
+    /* position: absolute; */
+    /* width: 168px;
+    height: 46px;
+    margin-left: 60px; */
+    /* left: 1006px;
+    right: -1006px;
+    top: 81px;
+    bottom: -81px; */
+    /* border-radius: 23px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    opacity: 0.6;
+    text-align: center;*/
+    margin: 0px 30px 0px 0px;
+    padding: 8px 0px 8px 10px;
+    border: 1px solid rgb(255, 255, 255);
+    ;
+    border-radius: 23px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    opacity: 0.6;
+}
+
+.desktop_twelve_post_a_job {
+    margin-left: 7%;
+    padding: 8px 15px 8px 15px;
+    border-radius: 23px;
+    color: white;
+    background: rgb(94, 79, 227);
+    border-color: rgb(94, 79, 227);
+}
+
+.desktop_twelve_main {
+    position: absolute;
+    width: 1200px;
+    height: 987px;
+    left: 120px;
+    right: 120px;
+    /* top: 172px; */
+    /* bottom: 1561px; */
+}
+
+.desktop_twelve_subscription {
+    width: 1200px;
+    height: 166px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 74px 0px; */
+}
+
+.desktop_twelve_subscript_left {
+    width: 477px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(28, 39, 82);
+    font-family: Mulish;
+}
+
+.desktop_twelve_subscript_right {
+    width: 579px;
+    height: 74px;
+    color: rgb(126, 126, 126);
+    font-family: Inter;
+    font-size: 18px;
+    margin: 0px 144px;
+}
+
+.desktop_twelve_plans {
+    width: 1200px;
+    height: 596px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 74px 0px;
+
+}
+
+.desktop_twelve_basic {
+    width: 304px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    margin: 0px 24px;
+    padding: 40px 40px 40px 0px;
+
+}
+
+.desktop_twelve_plan_price {
+    width: 302px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(211, 209, 209);
+}
+
+.desktop_twelve_plan_price>p {
+    margin-left: 70px;
+}
+
+.desktop_twelve_plan_content>li {
+    margin: 10px 0px 20px 0px;
+    color: rgb(126, 126, 126)
+}
+
+.desktop_twelve_buy_button {
+    width: 302px;
+    padding: 15px 90px 15px 90px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(70, 64, 222);
+    background: rgb(70, 64, 222);
+    color: white;
+    font-weight: bold;
+}
+
+.desktop_twelve_standard {
+    width: 304px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px 60px 40px 0px;
+    margin: 0px 100px;
+}
+
+.desktop_twelve_standard_plans {
+    width: 303px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(183, 180, 180);
+    /* margin:0px 100px ; */
+}
+
+.desktop_twelve_button_div {
+    margin-left: 50px;
+}
+
+.desktop_twelve_popular_button {
+
+    width: 100px;
+    padding: 3px 6px 3px 6px;
+    /* height: 25px; */
+    color: white;
+    background-color: rgb(70, 64, 222);
+    border: 1px solid rgb(70, 64, 222);
+    /* font-weight: bold; */
+}
+
+.desktop_twelve_middle_buy {
+    width: 302px;
+    /* height: 65px; */
+    padding: 15px 10px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(70, 64, 222);
+    background-color: white;
+    font-weight: bold;
+}
+
+.desktop_twelve_plan_end {
+    width: 1198px;
+    height: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.desktop_twelve_afford {
+    width: 513px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 82px;
+}
+.desktop_twelve_fixed {
+    width: 513px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 82px;
+}
